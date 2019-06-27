@@ -1,0 +1,19 @@
+mutation {
+  user1: createUser(data: {
+    email: "riskteria@gmail.com"
+    phone: "081212121212"
+    name: "Muhammad Rizky Hasibuan"
+
+  }) {
+    id
+  }
+
+  user2: createUser(data: {
+    email: "endkidu@gmail.com"
+    phone: "081223423434"
+    name: "Enkidu"
+
+  }) {
+    id
+  }
+}
